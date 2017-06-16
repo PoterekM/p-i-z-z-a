@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Olsen Twin's pizza</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Mary Kate and Ashley Presents:</h1>
+        <h4>P-I-Z-Z-A</h4>
+      </div>
+
+
+      <div class="well">
+
+        <form id="pizzaSelection">
+          <div class="size">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                How much can you chow?
+              </div>
+              <div class="panel-body">
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="size" value="small">
+                    Small
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="size" value="medium">
+                    Medium
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="size" value="large">
+                    Large
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="size" value="mondo">
+                    As big as some countries
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="well toppings">
+            <div class="form-group toppings">
+              <a href="https://www.youtube.com/watch?v=CJEoASUMZbI&spfreload=5" target="_blank">
+                <img src="img/pizza.gif" alt="Mary Kate and Ashley">
+              </a>
+              <p>Put this on the pizza:</p>
+              <input type="checkbox" name="toppings" value="anchovies"> Anchovies<br>
+              <input type="checkbox" name="toppings" value="fishsticks">Fishsticks<br>
+              <input type="checkbox" name="toppings" value="Bacon">Bacon<br>
+              <input type="checkbox" name="toppings" value="pineapple">Pineapple<br>
+              <input type="checkbox" name="toppings" value="lasagna">Lasagna<br>
+              <input type="checkbox" name="toppings" value="sushi">Sushi<br>
+              <input type="checkbox" name="toppings" value="artichokes">Artichokes<br>
+              <input type="checkbox" name="toppings" value="IceCream">IceCream<br>
+              <input type="checkbox" name="toppings" value="Strawberries">Strawberries<br>
+            </div>
+          <button type="submit" class="btn">Gimme a Pizza!</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="well" id="displayOrder">
+        <p> You have selected a <span id="user-size"></span> pizza.</p>
+        <p> You have chosen to put these toppings on your pizza: <span id="user-toppings"></span></p>
+        <p> Your total is: <span id="user-total"></span></p>
+
+
+
+
+      </div>
+
+    </div>
+  </body>
+</html>
