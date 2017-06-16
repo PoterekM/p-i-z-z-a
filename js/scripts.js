@@ -62,7 +62,7 @@ $(document).ready(function() {
 
     // console.log(newPizza.size); // confirm upstairs is talking to downstairs by giving new object plus the constructor property
 
-
+    $("#displayOrder").show();
     $("#user-size").text(newPizza.size);
     $("#user-toppings").text(newPizza.topping);
     $("#user-total").text("$" + newPizza.calcTotal());
