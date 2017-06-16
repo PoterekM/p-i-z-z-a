@@ -20,12 +20,13 @@ _This project allows a user to order a theoretical Mary Kate and Ashley pizza!_
 
 _In order to copy this directory to your computer locally:_
 * _open Terminal and type:_
-* _$ git clone `https://github.com/PoterekM/ping-pong.git`_
-* _$ cd `ping-pong`_
+* _$ git clone `https://github.com/PoterekM/p-i-z-z-a.git`_
+* _$ cd `p-i-z-z-a`_
 * _$ open `index.html`_
+* _Enjoy theoretical pizza!_
 
 To access this repository remotely click this link: <br>
-https://poterekm.github.io/ping-pong/
+https://poterekm.github.io/p-i-z-z-a/
 
 <!-- * _This is a great place_
 * _to list setup instructions_
