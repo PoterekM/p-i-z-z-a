@@ -1,3 +1,20 @@
+.jumbotron{
+  text-align: center;
+  color: salmon;
+}
+
+
+body{
+  text-align: center;
+  background-color: teal;
+}
+
+
+
+
+
 #displayOrder {
   display: none;
+  background-color: salmon;
+  color: white;
 }

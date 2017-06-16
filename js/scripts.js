@@ -6,7 +6,6 @@ function Pizza (size, topping) {
 
 
 Pizza.prototype.calcTotal = function() {
-  console.log("hey");
   var total = 0;
   if (this.size === "small") {
     total += 12
@@ -23,12 +22,12 @@ Pizza.prototype.calcTotal = function() {
   }
 
 
-  // Calculate based number of toppings
-   for (var index = 0; index < this.topping.length; index ++) {
-       total += 3;
-     }
-     return total;
-   };
+// Calculate based number of toppings
+ for (var index = 0; index < this.topping.length; index ++) {
+     total += 3;
+   }
+   return total;
+ };
 
 
 // TO BE CONTINUED LATER
